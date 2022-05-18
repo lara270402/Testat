@@ -12,3 +12,14 @@ weight = Transfersumme in 100.000 Euro Schritten, gerundet falls abweichend.
 
 season = transferfenster. nur erste Jahreszahl des Fensters als JJJJ verwenden.
 
+## Nodelist
+
+id, name,country,type
+
+id = Rückennumer oder Vereinsname
+
+name = Spieler oder Vereinsname
+
+country = Land
+
+type 1 = Spieler, 2 = Verein
