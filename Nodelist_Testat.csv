@@ -1,5 +1,5 @@
 id,name,country,type
-1,Florian Müller,Deutschland,1
+1,Florian Mueller,Deutschland,1
 33,Fabian Bredlow,Deutschland,1
 42,Florian Schock,Deutschland,1
 5,Konstantinos Mavropanos,Griechenland,1
@@ -13,25 +13,25 @@ id,name,country,type
 32,Naouirou Ahamada,Frankreich,1
 6,Clinton Mola,England,1
 8,Enzo Millot,Frankreich,1
-28,Nikolas Nartey,Dänemark,1
+28,Nikolas Nartey,Daenemark,1
 14,Silas Katompa Mvumpa,Kongo,1
 30,Roberto Massimo,Deutschland,1
 11,Erik Thommy,Deutschland,1
-20,Philipp Förster,Deutschland,1
+20,Philipp Foerster,Deutschland,1
 31,Mateo Klimowicz,Deutschland,1
 25,Lilian Egloff,Deutschland,1
-34,Ömer Beyaz,Türkei,1
+34,Oemer Beyaz,Tuerkei,1
 10,Daniel Divadi,Deutschland,1
 7,Tanguy Coulibaly,Frankreich,1
-22,Chris Führich,Deutschland,1
-9,Sasa Kalajdzic,Österreich,1
+22,Chris Fuehrich,Deutschland,1
+9,Sasa Kalajdzic,Oesterreich,1
 18,Tiago Tomás,Portugal,1
-17,Omar Marmoush,Ägypten,1
-19,Wahid Faghir,Dänemark,1
+17,Omar Marmoush,Aegypten,1
+19,Wahid Faghir,Daenemark,1
 50,Alexis Tibidi,Frankreich,1
 44,Mohamed Sankoh,Niederlande,1
 Mainz,Mainz 05,Deutschland,2
-Nürnberg,1. FC Nürnberg,Deutschland,2
+Nuernberg,1. FC Nuernberg,Deutschland,2
 Stuttgart_II,Stuttgart II,Deutschland,2
 Arsenal,FC Arsenal,England,2
 Hannover ,Hannover 96,Deutschland,2
@@ -47,16 +47,16 @@ Monaco,AS Monaco,Monaco,2
 Sandhausen,SV Sandhausen,Deutschland,2
 Paris,Paris FC,Frankreich,2
 Bielefeld,Arm. Bielefeld,Deutschland,2
-Düsseldorf,F. Düsseldorf,Deutschland,2
+Duesseldorf,F. Duesseldorf,Deutschland,2
 Instituto,Instituto AC,Argentinien,2
 Stuttgart_U19,Stuttgart U19,Deutschland,2
-Fenerbahce,Fenerbahce,Türkei,2
+Fenerbahce,Fenerbahce,Tuerkei,2
 Wolfsburg,VfL Wolfsburg,Deutschland,2
 Paris_SG_U19,Paris SG U19,Frankreich,2
 Paderborn,SC Paderborn,Deutschland,2
-Admira_Wacker,Admira Wacker,Österreich,2
+Admira_Wacker,Admira Wacker,Oesterreich,2
 Sporting,Sporting,Portugal,2
-Vejle_BK,Vejle BK,Dänemark,2
+Vejle_BK,Vejle BK,Daenemark,2
 Deutschland,,,
 Griechenland,,,
 Usbekistan,,,
@@ -68,7 +68,7 @@ Frankreich,,,
 Komoren,,,
 England,,,
 Martinique,,,
-Dänemark,,,
+Daenemark,,,
 Ghana,,,
 Italien,,,
 Argentinien,,,
@@ -76,11 +76,11 @@ Benin,,,
 Elfenbeinküste,,,
 Serbien,,,
 Portugal,,,
-Ägypten,,,
+Aegypten,,,
 Kanada,,,
 Afghanistan,,,
 Kamerun,,,
 Niederlande,,,
 Sierra Leone,,,
 Türkei,,,
-Österreich,,,
+Oesterreich,,,
