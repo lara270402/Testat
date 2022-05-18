@@ -1,7 +1,7 @@
 from,to,weight,season
 Mainz,1,50,2021
 1,Deutschland,,
-Nürnberg,33,3,2019
+Nuernberg,33,3,2019
 33,Deutschland,,
 Stuttgart_II,42,,2021
 42,Deutschland,,
@@ -34,14 +34,14 @@ Monaco,8,11,2021
 8,Frankreich,,
 8,Martinique,,
 Sandhausen,28,10,2019
-28,Dänemark,,
+28,Daenemark,,
 28,Ghana,,
 Paris,14,80,2019
 14,Kongo,,
 Bielefeld,30,,2018
 30,Deutschland,,
 30,Italien,,
-Düsseldorf,11,,2018
+Duesseldorf,11,,2018
 11,Deutschland,,
 Sandhausen,20,30,2019
 20,Deutschland,,
