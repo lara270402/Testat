@@ -1,4 +1,4 @@
-# Codebuch für das Testat
+# Codebuch für das Testat - von Lara Zosig (lz035)
 
 Meine Daten stammen aus: https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79
 
@@ -12,9 +12,9 @@ weight = Transfersumme in 100.000 Euro Schritten, gerundet falls abweichend.
 
 season = transferfenster. nur erste Jahreszahl des Fensters als JJJJ verwenden.
 
-## Nodelist
+In der gleichen Edgelist wird ferner die Nationalität der einzelnen Spieler angegeben (doppelte Staatsangehörigkeit jeweils eine Kante).
 
-id, name,country,type
+## Nodelist
 
 id = Rückennumer oder Vereinsname
 
