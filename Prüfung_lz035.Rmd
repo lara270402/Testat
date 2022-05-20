@@ -1,0 +1,58 @@
+---
+title: "Testat_lz035"
+subtitle: "VfB"
+author: "Lara Zosig"
+date: "18.05.2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(igraph)
+```
+
+
+```{r Netzwerk einlesen}
+
+# Mein Codebuch:https://github.com/lara270402/Testat/blob/main/Codebuch_Testat.md
+# GitHubLink allgemein: https://github.com/lara270402/Testat 
+
+# Programmbibliothek laden
+library(igraph)
+
+# Einlesen der Edge- und Nodelist
+edges <- read.csv("https://raw.githubusercontent.com/lara270402/Testat/main/Edgelist_Testat.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/lara270402/Testat/main/Nodelist_Testat.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(edges)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt VfB
+VfB <- graph_from_data_frame(d=edgematrix, directed=F)
+VfB
+```
+```{r Netzwerk visualisieren, fig.height=6, fig.width=9}
+
+# Visualisierung des Netzwerks
+
+plot(VfB,
+     asp=0,
+     layout=layout.graphopt,
+     rescale=TRUE,
+     vertex.size=degree(VfB)*1.2,
+     vertex.size=20,
+     vertex.frame.color="black",
+     edge.color="black",
+     vertex.color="lightgreen")
+
+# Titel
+
+title("VfB Kader", 
+      sub = "Nationalität, Rückennummer und bisherige Vereine",
+      cex.main =1, col.main= "darkgreen",
+      cex.sub = 1, font.sub = 3, col.sub = "darkgreen")
+
+# Die Visualisierung zeigt, wie die Nationalität der Spieler, die Spieler (deren Rückennummer) und die bisherigen Vereine der Spieler in Verbindung stehen. In der Abbildung wird deutlich, dass es unterschiedliche Komponenten gibt. Eine einzelne Komponente stellt zum Beispiel die Rückennummer 9 (Sasa Kalajdzic) dar, welcher die österreichische und serbische Nationalität hat und vor dem VfB bei Admira Wacker gespielt hat. Im Gegensatz dazu befindet sich der Großteil der anderen Spieler in einer sehr großen Komponente. Außerdem lässt sich in der Visualisierung erkennen, dass sehr viele Spieler die deutsche Nationalität haben, denn dieser Knoten ist der größte.
+
+
+```
