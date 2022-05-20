@@ -16,7 +16,7 @@ In der gleichen Edgelist wird außerdem die Nationalität der einzelnen Spieler 
 
 ## Nodelist
 
-id = Rückennumer oder Vereinsname
+id = Rückennummer oder Vereinsname
 
 name = Spieler oder Vereinsname
 
