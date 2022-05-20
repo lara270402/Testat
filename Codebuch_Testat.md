@@ -10,9 +10,9 @@ to = ID des Spielers (Rückennummer)
 
 weight = Transfersumme in 100.000 Euro Schritten, gerundet falls abweichend.
 
-season = transferfenster. nur erste Jahreszahl des Fensters als JJJJ verwenden.
+season = Transferfenster. Nur erste Jahreszahl des Fensters als JJJJ verwendet.
 
-In der gleichen Edgelist wird außerdem die Nationalität der einzelnen Spieler angegeben (doppelte Staatsangehörigkeit jeweils eine Kante).
+In der gleichen Edgelist wird außerdem die Nationalität der einzelnen Spieler angegeben (Bei doppelten Staatsangehörigkeiten werden pro Staatsangehörigkeit eine Kante angelegt).
 
 ## Nodelist
 
