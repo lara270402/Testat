@@ -12,7 +12,7 @@ weight = Transfersumme in 100.000 Euro Schritten, gerundet falls abweichend.
 
 season = transferfenster. nur erste Jahreszahl des Fensters als JJJJ verwenden.
 
-In der gleichen Edgelist wird ferner die Nationalität der einzelnen Spieler angegeben (doppelte Staatsangehörigkeit jeweils eine Kante).
+In der gleichen Edgelist wird außerdem die Nationalität der einzelnen Spieler angegeben (doppelte Staatsangehörigkeit jeweils eine Kante).
 
 ## Nodelist
 
