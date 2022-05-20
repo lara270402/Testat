@@ -14,15 +14,15 @@ library(igraph)
 
 ```{r Netzwerk einlesen}
 
-# Mein Codebuch:https://github.com/lara270402/Testat/blob/main/Codebuch_Testat.md
+# Mein Codebuch: https://github.com/lara270402/Testat/blob/main/Codebuch_Testat_lz035.Rmd
 # GitHubLink allgemein: https://github.com/lara270402/Testat 
 
 # Programmbibliothek laden
 library(igraph)
 
 # Einlesen der Edge- und Nodelist
-edges <- read.csv("https://raw.githubusercontent.com/lara270402/Testat/main/Edgelist_Testat.csv", header=T, as.is=T, sep = ",")
-nodes <- read.csv("https://raw.githubusercontent.com/lara270402/Testat/main/Nodelist_Testat.csv", header=T, as.is=T, sep = ",")
+edges <- read.csv("https://raw.githubusercontent.com/lara270402/Testat/main/Edgelist_Testat_lz035.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/lara270402/Testat/main/Nodelist_Testat_lz035.csv", header=T, as.is=T, sep = ",")
 
 # Matrix erstellen
 edgematrix <-as.matrix(edges)
